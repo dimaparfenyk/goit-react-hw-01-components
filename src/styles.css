@@ -20,3 +20,6 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+#root{
+    padding: 20px 15px;
+}

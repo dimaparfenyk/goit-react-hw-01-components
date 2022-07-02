@@ -1,7 +1,12 @@
 .transaction_history, td,th{
     border: 1px solid black;
 }
-
+thead{
+    background-color: rgb(118, 202, 202);
+}
 table{
     margin:0 auto;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 500;
 }

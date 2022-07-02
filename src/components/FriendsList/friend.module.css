@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .item{
@@ -25,6 +25,10 @@
     margin-right: 10px;
 }
 
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
 .true, .false{
     width: 18px;
     height: 18px;
