@@ -4,6 +4,7 @@ margin-bottom: 10px;
 .stat_list{
 display: flex;
 flex-direction: row;
+justify-content: center;
 }
 .item{
 padding: 10px;

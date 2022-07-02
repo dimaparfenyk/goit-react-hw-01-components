@@ -1,4 +1,5 @@
 .profile {
+    margin: 0 auto;
     width: 400px;
     padding: 20px 10px 40px 10px;
     background-color: rgb(82, 148, 157);
@@ -9,7 +10,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         padding-bottom: 30px;
         margin-bottom: 10px;
     }
