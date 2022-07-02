@@ -1,0 +1,22 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+li {
+    list-style: none;
+}
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}

@@ -1,18 +1,26 @@
 import PropTypes from 'prop-types';
 import FriendListItem from './FriendListItem';
 
-const FriendsList = ({ friends }) => {
-    return <ul className="friend-list">
+const FriendsList = ({ friends }) => {   // <------ У компонента один параметр-объект
+    return <ul className="friend_list">
      
-     {friends.map(friend => {
-           
-          return <FriendListItem
-              key={friend.id}
-            avatar={friend.avatar}
-            name={friend.name}
-            isOnline={friend.isOnline}/> 
+     {friends.map(({id, avatar, name, isOnline}) => {
+            return <FriendListItem
+            key={id}                  // <--------key дается на самый верхний эл-т внутри мэпа
+            avatar={avatar}
+            name={name}
+            isOnline={isOnline}
+          /> 
       })}
-</ul>  
+    </ul>      
+};
+ 
+FriendsList.propTypes = {
+    friends: PropTypes.arrayOf(
+        PropTypes.shape({
+          id:PropTypes.number.isRequired,  
+        })
+    ).isRequired,
 };
 
 export default FriendsList;

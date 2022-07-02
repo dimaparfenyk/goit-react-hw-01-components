@@ -1,0 +1,12 @@
+.statistics{
+margin-bottom: 10px;
+}
+.stat_list{
+display: flex;
+flex-direction: row;
+}
+.item{
+padding: 10px;
+border: 1px black;
+background-color: bisque;
+}
