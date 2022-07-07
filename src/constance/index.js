@@ -1,2 +1,4 @@
-export*  from "./iconSize";
+export * from "./iconSize";
+
+
 
